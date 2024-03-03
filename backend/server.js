@@ -31,5 +31,5 @@ app.get("*", (req, res) => {
 
 server.listen(port, (req, res) => {
   connectDB();
-  console.log(`Sever conncted on ${port}`);
+  console.log(`Server conncted on ${port}`);
 });

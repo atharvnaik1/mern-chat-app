@@ -13,7 +13,7 @@ import job from "./cron.js";
 dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 job.start();
 

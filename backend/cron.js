@@ -3,7 +3,7 @@ import https from 'https';
 
 const backendUrl= "https://mern-chat-app-v9tm.onrender.com"
 
-const job = new cron.CronJob('*/14 12,22 * * *',function (){
+const job = new cron.CronJob('*/14 11,22 * * *',function (){
 
   console.log('Restarting server');
 
